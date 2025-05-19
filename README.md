@@ -1,4 +1,4 @@
-# Interactive Art Diary Prototype
+# Bosch Interactive Art Diary Prototype
 
 A high-performance interactive viewer for exploring detailed artwork with rich media hotspots. This prototype demonstrates the framework for a digital illustrated diary project where visitors can zoom into high-resolution artwork, trigger audio narrations, view rollover images, and follow external links through interactive hotspots.
 
