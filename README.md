@@ -2,8 +2,6 @@
 
 A high-performance interactive viewer for exploring detailed artwork with rich media hotspots. This prototype demonstrates the framework for a digital illustrated diary project where visitors can zoom into high-resolution artwork, trigger audio narrations, view rollover images, and follow external links through interactive hotspots.
 
-![Interactive Art Diary](https://github.com/yourusername/interactive-art-diary-prototype/raw/main/screenshot.png)
-
 ## 🎬 Demo
 
 [Watch Video Demonstration](https://youtu.be/kMz_AXEsem4)
