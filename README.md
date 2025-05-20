@@ -88,36 +88,7 @@ The project uses a structured JSON format to define interactive hotspots:
 }
 ```
 
-## ⚡ Performance Considerations
-
-This prototype implements several critical optimizations for handling large-scale media content:
-
-- **Memory Management for Audio**: Complete audio resource lifecycle handling with proper unloading (`sound.unload()`) to prevent memory leaks when handling numerous audio files
-- **Advanced Audio Transition System**: Sophisticated management of audio transitions with delayed cleanup to ensure smooth user experience
-- **Efficient Polygon Rendering**: SVG-based approach for minimal memory impact
-- **Tactical Audio Loading**: Audio loads only when requested
-- **Image Optimization**: Structured to support progressive loading strategies
-- **Minimal State Updates**: Careful state management to avoid unnecessary re-renders
-
-## 🔮 Future Enhancements
-
-- **Progressive Loading System**: Implementation of tiled image loading for very large artwork files (50MB+)
-- **Robust Navigation System**: Enhanced navigation between hotspots using array indices rather than sequential IDs for better maintainability
-- **Accessibility Improvements**: Keyboard focus management for hotspots and ARIA attributes for screen reader support
-- **Resource Path Verification**: Automated validation of audio and image paths to ensure all assets are properly loaded
-- **Edge Case Handling**: Additional error handling for polygon coordinates and other potential edge cases
-- **Mobile-responsive Design**: Touchscreen optimizations and layout adaptations
-- **CMS Integration**: Backend connection for content management
-- **Calendar-based Navigation**: Time-based exploration of diary entries
-- **Audiobook-style Playback**: Continuous narration experience across hotspots
-
 ## 📝 Development Notes
 
 The polygon hotspots in this prototype were created using Inkscape (similar to Affinity Designer) to demonstrate the exact conversion process that would be used in the full implementation. The coordinates were extracted to create a JSON structure compatible with what an Affinity Designer conversion tool would generate.
-
-The code emphasizes scalability and performance to handle the eventual target of 50+ artworks containing 10,000+ total hotspots, with particular attention to memory management and rendering optimization.
-
-## 📜 License
-
-This project is a prototype demonstration created by Leonard.
 
